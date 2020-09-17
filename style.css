@@ -434,3 +434,57 @@ h3
     text-align: center;
     opacity: 0.7;
 }
+
+/* Version telephone --------------------------------------------------------------------------*/
+
+@media all and (max-width: 770px)
+{
+    .cont {
+        position: relative;
+        overflow: hidden;
+        height: 20vh;
+        padding: 80px 70px;
+        margin-bottom: 5vh;
+    }
+
+    .el:nth-child(1) .el__bg:before {
+        transition-delay: 0s;
+        background-image: url("image/1.jpg");
+        width: 100px;
+        margin-left: 27%;
+    }
+
+    .el:nth-child(2) .el__bg:before {
+        transition-delay: 0.1s;
+        background-image: url("image/2.jpg");
+        width: 100px;
+        margin-left: 27%;
+    }
+
+    .el:nth-child(3) .el__bg:before {
+        transition-delay: 0.2s;
+        background-image: url("image/3.jpg");
+        width: 100px;
+        margin-left: 27%;
+        margin-top: 0px;
+    }
+
+    .el:nth-child(4) .el__bg:before {
+        transition-delay: 0.3s;
+        background-image: url("image/4.jpg");
+        width: 100px;
+        margin-left: 27%;
+    }
+
+    .el:nth-child(5) .el__bg:before {
+        transition-delay: 0.4s;
+        background-image: url("image/5.jpg");
+        width: 100px;
+        margin-left: 27%;
+    }
+
+    h2 {
+        display: none;
+        visibility: hidden;
+    }
+ }
