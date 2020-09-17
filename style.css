@@ -442,7 +442,7 @@ h3
     .cont {
         position: relative;
         overflow: hidden;
-        height: 20vh;
+        height: 40vh;
         padding: 80px 70px;
         margin-bottom: 5vh;
     }
@@ -450,41 +450,54 @@ h3
     .el:nth-child(1) .el__bg:before {
         transition-delay: 0s;
         background-image: url("image/1.jpg");
-        width: 100px;
-        margin-left: 27%;
+        width: 170px;
+        margin-left: 12%;
     }
 
     .el:nth-child(2) .el__bg:before {
         transition-delay: 0.1s;
         background-image: url("image/2.jpg");
-        width: 100px;
-        margin-left: 27%;
+        width: 170px;
+        margin-left: 12%;
     }
 
     .el:nth-child(3) .el__bg:before {
         transition-delay: 0.2s;
         background-image: url("image/3.jpg");
-        width: 100px;
-        margin-left: 27%;
+        width: 170px;
+        margin-left: 12%;
         margin-top: 0px;
     }
 
     .el:nth-child(4) .el__bg:before {
         transition-delay: 0.3s;
         background-image: url("image/4.jpg");
-        width: 100px;
-        margin-left: 27%;
+        width: 170px;
+        margin-left: 12%;
     }
 
     .el:nth-child(5) .el__bg:before {
         transition-delay: 0.4s;
         background-image: url("image/5.jpg");
-        width: 100px;
-        margin-left: 27%;
+        width: 170px;
+        margin-left: 12%;
     }
 
     h2 {
         display: none;
         visibility: hidden;
+    }
+
+    .el__close-btn:before, .el__close-btn:after {
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 10%;
+        width: 20px;
+        height: 3px;
+        margin-top: -14px;
+        background: rgb(255, 0, 0);
+        opacity: 0;
+        transition: opacity 0s;
     }
  }
