@@ -44,6 +44,12 @@ h1
     text-decoration: underline red;
 }
 
+.info
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
 .petite
 {
     width: 50px;
@@ -436,6 +442,7 @@ h3
     text-align: center;
     opacity: 0.7;
 }
+
 
 /* Version telephone --------------------------------------------------------------------------*/
 
